@@ -1,0 +1,19 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: black;
+  color: white;
+  padding-top: 50px;
+  font-size: 18px;
+}
+
+section {
+  width: 250px;
+  display: inline-block;
+}
+
+/* to break all 4 sections in a row */
+@media (max-width: 1168px) {
+  section {
+    display: block;
+  }
+}

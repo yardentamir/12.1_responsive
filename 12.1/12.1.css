@@ -1,0 +1,15 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 18px;
+}
+
+/* SmartPhones */
+@media (max-width: 500px) {
+  body {
+    font-size: 12px;
+  }
+}
