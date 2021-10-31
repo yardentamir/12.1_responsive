@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+  #aside {
+    display: none;
+  }
+
+  #main {
+    width: 100%;
+  }
+}
